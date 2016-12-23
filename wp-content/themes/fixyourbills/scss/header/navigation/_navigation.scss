@@ -1,0 +1,105 @@
+header {
+
+  .navbar-default {
+    background-color: transparent;
+    border: 0;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    min-height: 0;
+
+    button {
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0 ($spacing-unit * 3);
+      margin: 0;
+
+      &:hover,
+      &:focus {
+        background-color: transparent !important;
+        border: 0;
+        border-radius: 0;
+      }
+
+      i {
+        @include font-size(30px);
+        color: $theme-white;
+      }
+
+      &.navbar-toggle {
+
+        .fa-times {
+          display: block;
+        }
+
+        .fa-bars {
+          display: none;
+        }
+
+      }
+
+      &.collapsed {
+
+        .fa-times {
+          display: none;
+        }
+
+        .fa-bars {
+          display: block;
+        }
+
+      }
+
+    }
+
+  }
+
+  .navbar {
+
+    &__sub-logo {
+      display: inline-block;
+      padding-top: ($spacing-unit);
+      padding-left: ($spacing-unit * 2);
+    }
+
+  }
+
+  nav {
+
+    &.collapse {
+      margin: ($spacing-unit * 2) 0;
+
+      @media #{$ipad-landscape} {
+        display: inline-block;
+        float: right;
+        margin: 0;
+      }
+
+      ul {
+
+        li {
+
+          @media #{$ipad-landscape} {
+            display: inline-block;
+          }
+
+          a {
+            @include font-size(14px);
+            color: $theme-white;
+
+            &:hover {
+              background-color: transparent;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

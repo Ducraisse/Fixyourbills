@@ -1,0 +1,41 @@
+/*
+Theme Name: Fix your bills theme
+Theme URI: http://www.fixyourbills.com/
+Author: Ducraisse of dayfive
+Author URI: http://www.dayfive.co.uk/
+Description: Theme for company site.
+Version: 1.0
+*/
+
+
+@import 'compass';
+@import 'bootstrap';
+@import 'compass/reset';
+
+// mixin //
+@import 'mixins/mixins';
+
+// vars //
+@import 'vars/vars';
+
+// Home //
+@import 'home/home-save';
+@import 'home/home-content';
+@import 'home/home-hero';
+
+// Header //
+@import 'header/header-main';
+@import 'header/navigation/navigation';
+
+// Footer //
+@import 'footer/footer-main';
+
+// global //
+@import 'global/global';
+
+// Notfound Styles
+@import 'notfound/no-page';
+
+// vendor
+@import 'vendor/jasny-bootstrap.min';
+

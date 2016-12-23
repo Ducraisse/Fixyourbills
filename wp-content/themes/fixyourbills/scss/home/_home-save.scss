@@ -1,0 +1,84 @@
+.more-ways {
+  background-color: $bg-save-section;
+  float: left;
+  padding: ($spacing-unit * 4) 0;
+  text-align: center;
+  width: 100%;
+
+  @media #{$ipad-landscape} {
+    padding: ($spacing-unit * 6) 0;
+  }
+
+  h2 {
+    @include font-size(28px);
+    color: $theme-color;
+    font-weight: 600;
+    padding: ($spacing-unit * 2) 0;
+  }
+
+  &__section {
+    float: left;
+    margin: ($spacing-unit * 3) 0;
+    width: 100%;
+
+    @media #{$ipad} {
+      display: inline-block;
+      float: none;
+      width: 25%;
+    }
+
+    @media #{$ipad-landscape} {
+      width: 18%;
+    }
+
+    @media #{$desktop} {
+      width: 15%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    &__holder {
+      background-color: $theme-white;
+      border-radius: 50%;
+      height: 136px;
+      margin: 0 auto;
+      text-align: center;
+      transition: all .3s ease-in-out .1s;
+      width: 136px;
+
+      i {
+        @include font-size(60px);
+        color: $theme-green;
+        padding-top: ($spacing-unit * 7);
+
+        @media #{$ipad-landscape} {
+          @include font-size(80px);
+          padding-top: ($spacing-unit * 6 - 2);
+        }
+
+      }
+
+      &:hover {
+        background-color: $theme-green;
+
+        i {
+          color: $theme-white;
+        }
+
+      }
+
+    }
+
+    span {
+      @include font-size(16px);
+      color: $theme-color;
+      display: block;
+      font-weight: 600;
+      padding-top: ($spacing-unit * 4);
+    }
+
+  }
+
+}

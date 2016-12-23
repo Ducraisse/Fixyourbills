@@ -1,0 +1,36 @@
+//Spacing Variables
+
+$spacing-unit: 5px;
+
+$theme-white: #fff;
+$theme-black: #000;
+$theme-color: #004a8e;
+$theme-green: #38b132;
+
+// Text colour variables
+
+$paragraph-grey: #757575;
+
+// Background colour variables
+$bg-footer: #f2f2f2;
+$bg-save-section: #e4f1fd;
+$bg-white-opacity: rgba(255,255,255, .8);
+$bg-black-opacity: rgba(0, 0, 0, .4);
+
+// Border colour variables
+
+
+//Media Query Variables
+
+$mobile: 'only screen and (min-width: 480px)';
+$mobile-landscape: 'only screen and (min-width: 568px)';
+
+$mobile-iphone6: 'only screen and (min-width: 375px)';
+$mobile-iphone6-landscape: 'only screen and (min-width: 667px)';
+
+$ipad: 'only screen and (min-width: 768px)';
+$ipad-landscape: 'only screen and (min-width: 1024px)';
+
+$desktop: 'only screen and (min-width: 1170px)';
+
+$firefox: 'url-prefix()';

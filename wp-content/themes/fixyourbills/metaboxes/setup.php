@@ -1,0 +1,1 @@
+<?php include_once WP_CONTENT_DIR . '/metaboxes/wp-alchemy/metabox.php';

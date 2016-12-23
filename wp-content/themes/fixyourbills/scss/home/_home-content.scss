@@ -1,0 +1,48 @@
+.home-content {
+  background-color: $theme-white;
+  float: left;
+  padding: ($spacing-unit * 6) 0;
+  text-align: center;
+  width: 100%;
+
+  @media #{$ipad-landscape} {
+    padding: ($spacing-unit * 10) 0;
+  }
+
+  p {
+    @include font-size(14px);
+    color: $theme-color;
+    padding: 0 ($spacing-unit * 3) ($spacing-unit * 3);
+    
+    @media #{$ipad} {
+      @include font-size(18px);
+      margin: 0 auto;
+      width: 70%;
+    }
+
+    @media #{$ipad-landscape}{
+      width: 60%;
+    }
+    
+  }
+
+  a {
+    @include font-size(18px);
+    background-color: $theme-color;
+    color: $theme-white;
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: ($spacing-unit + 7);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 50%;
+
+    @media #{$ipad} {
+      width: 20%;
+    }
+
+  }
+
+}

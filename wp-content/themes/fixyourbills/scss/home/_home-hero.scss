@@ -1,0 +1,77 @@
+.home-hero {
+  background-position: top center;
+  background-size: cover;
+  float: left;
+  height: 339px;
+  text-align: center;
+  width: 100%;
+
+  @media #{$ipad} {
+    height: 376px;
+  }
+
+  &__content {
+
+    h1 {
+      @include font-size(24px);
+      color: $theme-white;
+      padding: ($spacing-unit * 10) 0 ($spacing-unit * 4);
+
+      @media #{$ipad-landscape} {
+        padding-top: 8%;
+      }
+
+    }
+
+    &__item {
+      display: inline-block;
+      padding-right: ($spacing-unit * 5);
+      text-align: center;
+
+      &:last-of-type {
+        padding-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      &__link {
+        background-color: $theme-green;
+        border-radius: 50%;
+        height: 90px;
+        margin: 0 auto;
+        text-align: center;
+        transition: all .3s ease-in-out .1s;
+        width: 90px;
+
+        i {
+          @include font-size(50px);
+          color: $theme-white;
+          padding-top: ($spacing-unit * 4 - 2);
+        }
+
+        &:hover {
+          background-color: $theme-white;
+
+          i {
+            color: $theme-green;
+          }
+
+        }
+
+      }
+
+      span {
+        @include font-size(18px);
+        @include line-height(24px);
+        color: $theme-white;
+        display: block;
+        padding: ($spacing-unit * 3) 0;
+      }
+
+    }
+
+  }
+
+}

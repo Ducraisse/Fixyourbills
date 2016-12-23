@@ -1,0 +1,13 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.padding-section {
+  padding: ($spacing-unit * 4) 0;
+}
+
+p {
+  @include font-size(12px);
+  @include line-height(22px);
+  color: $paragraph-grey;
+}
