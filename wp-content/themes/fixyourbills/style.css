@@ -7774,6 +7774,11 @@ header nav.collapse ul li a:hover {
     width: 50%;
   }
 }
+@media only screen and (min-width: 1170px) {
+  .contact-holder__form .wpcf7-submit {
+    width: 30%;
+  }
+}
 .contact-holder__info {
   background-color: #f4f4f4;
   margin-bottom: 20px;
@@ -7870,6 +7875,31 @@ p {
   line-height: 2.2rem;
   line-height: 22px;
   color: #757575;
+}
+
+.page-template-default .entry-header {
+  background-color: transparent;
+  padding: 20px 0;
+}
+.page-template-default .entry-header a {
+  font-size: 2rem;
+  font-size: 20px;
+  border-bottom: 1px solid #cacaca;
+  color: #000;
+  display: block;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.page-template-default p {
+  font-size: 1.4rem;
+  font-size: 14px;
+  color: #000;
+  padding-bottom: 15px;
+}
+.page-template-default strong {
+  font-size: 1.6rem;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nopage .hero-image {

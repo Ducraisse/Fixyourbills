@@ -87,6 +87,10 @@
         width: 50%;
       }
 
+      @media #{$desktop} {
+        width: 30%;
+      }
+
     }
 
   }
