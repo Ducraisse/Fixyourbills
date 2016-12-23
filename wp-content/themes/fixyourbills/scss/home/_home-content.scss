@@ -43,6 +43,10 @@
       width: 20%;
     }
 
+    @media #{$desktop} {
+      width: 15%;
+    }
+
   }
 
 }

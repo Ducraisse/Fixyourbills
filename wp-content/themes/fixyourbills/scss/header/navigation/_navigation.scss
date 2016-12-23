@@ -70,7 +70,7 @@ header {
     &.collapse {
       margin: ($spacing-unit * 2) 0;
 
-      @media #{$ipad-landscape} {
+      @media #{$ipad} {
         display: inline-block;
         float: right;
         margin: 0;
@@ -80,13 +80,21 @@ header {
 
         li {
 
-          @media #{$ipad-landscape} {
+          @media #{$ipad} {
             display: inline-block;
           }
 
           a {
             @include font-size(14px);
             color: $theme-white;
+
+            @media #{$ipad} {
+              @include font-size(11px);
+            }
+
+            @media #{$ipad-landscape} {
+              @include font-size(14px);
+            }
 
             &:hover {
               background-color: transparent;

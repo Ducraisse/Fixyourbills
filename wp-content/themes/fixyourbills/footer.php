@@ -16,6 +16,20 @@
 
 <footer>
 
+    <div class="social">
+        <a href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-wifi" aria-hidden="true"></i>
+        </a>
+    </div>
     <div class="copyright-section">
         <p>© Fix Your Bills. All rights reserved</p>
         <p>Site by <a href="#">Dayfive Digtial</a></p>

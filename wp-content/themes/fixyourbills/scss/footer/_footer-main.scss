@@ -1,5 +1,47 @@
 footer {
   background-color: $bg-footer;
+  float: left;
   padding: ($spacing-unit * 4) 0;
   text-align: center;
+  width: 100%;
+
+  .social {
+
+    @media #{$ipad}{
+      border-bottom: 1px solid $border-footer;
+      margin: ($spacing-unit * 2) auto;
+      padding-bottom: ($spacing-unit * 3);
+      width: 80%;
+    }
+
+    a {
+      background-color: $theme-color;
+      border-radius: 50%;
+      color: $theme-white;
+      display: inline-block;
+      height: 44px;
+      margin-right: ($spacing-unit * 2);
+      text-align: center;
+      width: 44px;
+
+      i {
+        @include font-size(20px);
+        padding-top: ($spacing-unit * 2);
+      }
+
+    }
+
+  }
+
+  .copyright-section {
+    float: left;
+    padding: ($spacing-unit * 4) 0;
+    width: 100%;
+
+    @media #{$ipad} {
+      padding: 0;
+    }
+
+  }
+
 }
