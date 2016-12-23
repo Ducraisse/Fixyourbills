@@ -49,7 +49,7 @@ Template Name: Home
         <div class="row">
             <h2>More ways to save</h2>
             <div class="more-ways__section">
-                <a href="#">
+                <a href="http://energy.fixyourbills.co.uk/">
                     <div class="more-ways__section__holder">
                         <i class="fa fa-gbp" aria-hidden="true"></i>
                     </div>
@@ -57,7 +57,7 @@ Template Name: Home
                 </a>
             </div>
             <div class="more-ways__section">
-                <a href="#">
+                <a href="/energy-efficiency-savings/">
                     <div class="more-ways__section__holder">
                         <i class="fa fa-unlock" aria-hidden="true"></i>
                     </div>
@@ -65,7 +65,7 @@ Template Name: Home
                 </a>
             </div>
             <div class="more-ways__section">
-                <a href="#">
+                <a href="/renewable-energy/">
                     <div class="more-ways__section__holder">
                         <i class="fa fa-clock-o" aria-hidden="true"></i>
                     </div>

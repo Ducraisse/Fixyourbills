@@ -7687,6 +7687,134 @@ header nav.collapse ul li a:hover {
   background-color: transparent;
 }
 
+.contact-holder {
+  float: left;
+  width: 100%;
+}
+.contact-holder__map {
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-holder__map {
+    margin: 30px 0;
+  }
+}
+.contact-holder__map iframe {
+  overflow: hidden;
+  width: 100%;
+}
+.contact-holder__form {
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-holder__form {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 7.5px;
+    padding-left: 0;
+    width: 49.7%;
+  }
+}
+.contact-holder__form h1 {
+  font-size: 2rem;
+  font-size: 20px;
+  color: #000;
+  padding-bottom: 10px;
+}
+.contact-holder__form p {
+  font-size: 1.4rem;
+  font-size: 14px;
+  color: #000;
+}
+.contact-holder__form label {
+  font-size: 1.4rem;
+  font-size: 14px;
+  color: #000;
+  margin: 10px 0;
+  width: 100%;
+}
+.contact-holder__form label span {
+  display: block;
+  width: 100%;
+}
+.contact-holder__form input {
+  font-size: 1.2rem;
+  font-size: 12px;
+  border: 1px solid #cacaca;
+  height: 30px;
+  outline: none;
+  margin-top: 5px;
+  padding-left: 5px;
+  width: 100%;
+}
+.contact-holder__form textarea {
+  border: 1px solid #cacaca;
+  height: 100px;
+  margin-top: 5px;
+  outline: none;
+  width: 100%;
+}
+.contact-holder__form .wpcf7-submit {
+  font-size: 1.4rem;
+  font-size: 14px;
+  background-color: #004a8e;
+  border: 0;
+  color: #fff;
+  height: auto;
+  margin-top: 10px;
+  padding: 8px;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .contact-holder__form .wpcf7-submit {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+}
+.contact-holder__info {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.contact-holder__info h2 {
+  font-size: 1.8rem;
+  font-size: 18px;
+  line-height: 2.4rem;
+  line-height: 24px;
+  color: #000;
+  padding-bottom: 10px;
+}
+.contact-holder__info p {
+  font-size: 1.4rem;
+  font-size: 14px;
+  line-height: 2.2rem;
+  line-height: 22px;
+  color: #000;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 768px) {
+  .contact-holder__info {
+    display: inline-block;
+    float: left;
+    margin-left: 7.5px;
+    min-height: 490px;
+    width: 48%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .contact-holder__info {
+    width: 48.7%;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .contact-holder__info {
+    width: 49%;
+  }
+}
+
 footer {
   background-color: #f2f2f2;
   float: left;

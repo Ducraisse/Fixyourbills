@@ -1,0 +1,132 @@
+.contact-holder {
+  float: left;
+  width: 100%;
+
+  &__map {
+    margin-bottom: ($spacing-unit * 4);
+
+    @media #{$ipad} {
+      margin: ($spacing-unit * 6) 0;
+    }
+
+    iframe {
+      overflow: hidden;
+      width: 100%;
+    }
+
+  }
+
+  &__form {
+    margin-bottom: ($spacing-unit * 4);
+    padding: 0 ($spacing-unit * 3);
+
+    @media #{$ipad} {
+      display: inline-block;
+      float: left;
+      margin-bottom: 0;
+      margin-right: ($spacing-unit + 2.5);
+      padding-left: 0;
+      width: 49.7%;
+    }
+
+    h1 {
+      @include font-size(20px);
+      color: $theme-black;
+      padding-bottom: ($spacing-unit * 2);
+    }
+
+    p {
+      @include font-size(14px);
+      color: $theme-black;
+    }
+
+    label {
+      @include font-size(14px);
+      color: $theme-black;
+      margin: ($spacing-unit * 2) 0;
+      width: 100%;
+
+      span {
+        display: block;
+        width: 100%;
+      }
+
+    }
+
+    input {
+      @include font-size(12px);
+      border: 1px solid $border-contact;
+      height: 30px;
+      outline: none;
+      margin-top: ($spacing-unit);
+      padding-left: ($spacing-unit);
+      width: 100%;
+    }
+
+    textarea {
+      border: 1px solid $border-contact;
+      height: 100px;
+      margin-top: ($spacing-unit);
+      outline: none;
+      width: 100%;
+    }
+
+    .wpcf7-submit {
+      @include font-size(14px);
+      background-color: $theme-color;
+      border: 0;
+      color: $theme-white;
+      height: auto;
+      margin-top: ($spacing-unit * 2);
+      padding: ($spacing-unit + 3);
+      text-transform: uppercase;
+      width: 100%;
+
+      @media #{$ipad} {
+        margin-bottom: ($spacing-unit * 4);
+        width: 50%;
+      }
+
+    }
+
+  }
+
+  &__info {
+    background-color: $bg-contact;
+    margin-bottom: ($spacing-unit * 4);
+    padding: ($spacing-unit * 4);
+
+    h2 {
+      @include font-size(18px);
+      @include line-height(24px);
+      color: $theme-black;
+      padding-bottom: ($spacing-unit * 2);
+    }
+
+    p {
+      @include font-size(14px);
+      @include line-height(22px);
+      color: $theme-black;
+      padding-bottom: ($spacing-unit * 2);
+    }
+
+    @media #{$ipad} {
+      display: inline-block;
+      float: left;
+      margin-left: ($spacing-unit + 2.5);
+      min-height: 490px;
+      width: 48%;
+    }
+
+    @media #{$ipad-landscape} {
+      width: 48.7%;
+    }
+
+    @media #{$desktop} {
+      width: 49%;
+    }
+
+  }
+
+}
+
